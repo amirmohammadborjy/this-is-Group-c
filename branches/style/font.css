@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "estedad regular";
+    src: url(../font/Estedad-Regular.ttf);
+}
+
+
+@font-face {
+    font-family: "estedad bold";
+    src: url(../font/Estedad-Bold.ttf);
+}
+
+
+
+@font-face {
+    font-family: "estedad semibold";
+    src: url(../font/Estedad-SemiBold.ttf);
+}

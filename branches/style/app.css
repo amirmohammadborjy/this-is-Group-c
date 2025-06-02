@@ -1,0 +1,295 @@
+@import url(./font.css);
+
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'estedad regular';
+}
+
+.slider{
+    position: relative;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider_image{
+    width: 100%;
+    filter: brightness(50%);
+    
+}
+
+
+.slider_texts{
+    position: absolute;
+    color: white;
+    font-weight: bold;
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.slider_button{
+
+    display: flex;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    background-color: darkseagreen;
+    font-size: 16px;
+    padding: 10px;
+    width: 200px;
+    justify-content: center;
+
+
+}
+
+.slider_menu{
+    display: flex;
+    position: absolute;
+    width: 150px;
+    height: 30px;
+    bottom: 0;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 15px 15px 0px 0;
+    gap: 5px;
+}
+
+.gray-dot{ 
+    background-color: gray;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+
+}
+.green-dot{
+    background-color: green;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%; 
+}
+
+.arrow_right{
+    position: absolute;
+    right: 24px;
+}
+.arrow_left{
+    position: absolute;
+    left: 24px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+
+
+.card{
+    display: flex;
+    margin-top: 20px;
+    width: 288px;
+    height: 450px;
+    flex-direction: column;
+    border: 1px solid #CBCBCB;
+    background-color: white;
+    
+}
+
+.card_image{
+    width: 288px;
+    height: 258px;
+}
+
+.card_top-text{
+    display: flex;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.card_middle_section{
+    display: flex;
+    flex-direction: column;
+}
+.card_middle_section-top{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    }
+.card_middle_section-right{
+    display: flex;
+    gap: 5px;
+    align-items: center;   
+}
+.card_middle_section-left{
+    display: flex;
+    gap: 5px;
+}
+
+.off_text{
+    display: flex;
+    background-color:#FFF2F2 ;
+    border-radius: 16px;
+    width: 40px;
+    text-align: center;
+    font-size: 10px;
+    align-items: center;
+    justify-content: center;
+    color: #C30000;
+}
+
+.price_text{
+    text-decoration: line-through;
+    color: gray;
+}
+
+.card_middle_section-bottom{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.add-to-favorite{
+    color: gray;
+    font-size: 10px;
+}
+
+.heart_image{
+    width: 16px;
+    height: 16px;
+}
+
+.rating{
+    color: gray;
+    font-size: 10px;
+}
+
+.star_image{
+    width: 16px;
+    height: 16px;
+}
+
+.card_button{
+    width: 256px;
+    height: 40px;
+    background-color: #417F56;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    margin-top: 16px;
+    border: 0;
+    outline: 0;
+}
+
+.card_bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card_content{
+    padding-bottom: 16px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+
+.cards{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    height: 587px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card_arrow{
+    position: absolute;
+    margin-right: 268px;
+    margin-top: 263px;
+    margin-bottom: 130px;
+}
+
+
+.cards2{
+    display: flex;
+    width: 100%;
+    gap: 24px;
+    height: 587px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.fave_foods{
+    display: flex;
+    background-color: #315F41;
+    height: 555px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.cards_head_text , .cards{
+    margin-right: 108px;
+}
+
+.cards2{
+    margin-right: 108px;
+    align-items: center;
+}
+
+.non_iranian_foods{ display: flex;
+    background-color: white;
+    height: 555px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.cards3{
+    margin-right: 108px;
+    align-items: center;
+}
+
+.cards_head_text3{
+    margin-top: 40px;
+    margin-right: 108px;
+    margin-bottom: -40px;
+}
+
+.show-all_button{
+    display: flex;
+    align-items: center;
+    width: 184px;
+    height: 40px;
+    border: 1px solid #417F56;
+    border-radius: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: -20px;
+    gap: 8px;
+}
+
+.show-all_button a{
+    border: none;
+    outline: none;
+    background-color: white;
+    text-decoration: none;
+    color: white;
+    color: #417F56;
+}
